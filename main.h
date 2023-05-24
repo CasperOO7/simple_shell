@@ -1,6 +1,6 @@
 #ifndef SHELL_H
 #define SHELL_H
-​
+
 /*LIBRARIES*/
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +8,7 @@
 #include <string.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
-​
+
 /*PROTOTYPES*/
 int _strcmp(char *s1, char *s2);
 char *_strcpy(char *dest, char *src);
@@ -21,8 +21,8 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 void _env(void);
 int execute(char **args);
 int empty_line(char *buffer);
-​
+
 /* GLOBAL VAR*/
 extern char **environ;
-​
+
 #endif
